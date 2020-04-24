@@ -1,0 +1,103 @@
+// Stream UI Bootstrap Overrides
+@import "../../../node_modules/stream/assets/include/scss/tools/functions";
+@import "../../../node_modules/stream/assets/include/scss/variables";
+@import "../../../node_modules/stream/assets/include/scss/tools/mixins";
+@import '../../../node_modules/stream/assets/include/scss/vendors/bootstrap/custom.bootstrap.variables';
+
+// Bootstrap SCSS
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+// Bootstrap Vue SCSS
+@import '../../../node_modules/bootstrap-vue/src/index';
+
+// Stream UI SCSS
+@import "../../../node_modules/stream/assets/include/scss/vendors/bootstrap/width";
+@import "../../../node_modules/stream/assets/include/scss/vendors/bootstrap/text";
+@import "../../../node_modules/stream/assets/include/scss/vendors/bootstrap/heading";
+@import "../../../node_modules/stream/assets/include/scss/vendors/bootstrap/dropdown";
+
+// Core
+@import "../../../node_modules/stream/assets/include/scss/core";
+
+// Blocks
+@import "../../../node_modules/stream/assets/include/scss/blocks/alerts";
+@import "../../../node_modules/stream/assets/include/scss/blocks/arrows";
+@import "../../../node_modules/stream/assets/include/scss/blocks/avatar";
+@import "../../../node_modules/stream/assets/include/scss/blocks/border-radius";
+@import "../../../node_modules/stream/assets/include/scss/blocks/buttons";
+@import "../../../node_modules/stream/assets/include/scss/blocks/carousel";
+@import "../../../node_modules/stream/assets/include/scss/blocks/forms";
+@import "../../../node_modules/stream/assets/include/scss/blocks/modals";
+@import "../../../node_modules/stream/assets/include/scss/blocks/pager";
+@import "../../../node_modules/stream/assets/include/scss/blocks/popover";
+@import "../../../node_modules/stream/assets/include/scss/blocks/progress-bar";
+@import "../../../node_modules/stream/assets/include/scss/blocks/tabs";
+
+@import "../../../node_modules/stream/assets/include/scss/blocks/blockquote/blockquote-v1";
+@import "../../../node_modules/stream/assets/include/scss/blocks/blockquote/blockquote-v2";
+@import "../../../node_modules/stream/assets/include/scss/blocks/clients";
+@import "../../../node_modules/stream/assets/include/scss/blocks/mockup-browser";
+@import "../../../node_modules/stream/assets/include/scss/blocks/mockup-device";
+@import "../../../node_modules/stream/assets/include/scss/blocks/icons/icon";
+@import "../../../node_modules/stream/assets/include/scss/blocks/icons/icon-block";
+@import "../../../node_modules/stream/assets/include/scss/blocks/header-navbar";
+@import "../../../node_modules/stream/assets/include/scss/blocks/portfolio";
+@import "../../../node_modules/stream/assets/include/scss/blocks/promo-blocks-v1";
+@import "../../../node_modules/stream/assets/include/scss/blocks/pricing";
+
+// Helpers
+@import "../../../node_modules/stream/assets/include/scss/blocks/helpers/helpers";
+
+// Globals
+@import "../../../node_modules/stream/assets/include/scss/blocks/globals/globals";
+
+// Magnific Popup
+@import '../../../node_modules/magnific-popup/src/css/main';
+
+// Magnific Popup
+.mfp-title.mfp-title {
+    a {
+        color: #fff;
+        font-size: 12px;
+    }
+}
+
+// Mixitup
+.mixitup-control-active {
+    @extend .active;
+}
+
+// Programming Languages
+.programming-languages {
+    li {
+        @extend .text-muted;
+        &:hover {
+            @extend .text-primary;
+            cursor: pointer;
+        }
+    }
+}
+
+// Jumbotron
+.jumbotron {
+    border-radius: 0px;
+}
+
+// Lazysizes
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+// Programming Languages
+.programming-languages {
+    .programming-icon {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    }
+}

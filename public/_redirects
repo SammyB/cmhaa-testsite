@@ -1,0 +1,5 @@
+# Prevent Netlify from displaying page not found error
+/* /index.html 200
+
+# Redirect default Netlify subdomain to primary domain
+https://webdevsuperfast-vue.netlify.com/* https://webdevsuperfast.tk/:splat 301!
